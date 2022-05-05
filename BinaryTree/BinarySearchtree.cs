@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BinarySearchTree
 {
-   
+    
     class BinarySearchTree<T> where T : IComparable
     {
         
@@ -12,9 +12,10 @@ namespace BinarySearchTree
         int leftNodeCount = 0;
         int rightNodeCount = 0;
 
-  
-        public void InsertDataInBST(T data)
+        
+        public Node<T> InsertDataInBST(T data)
         {
+            
             
             Node<T> node = new Node<T>(data);
 
@@ -27,7 +28,7 @@ namespace BinarySearchTree
             {
                 
                 Node<T> currentPosition = root;
-            
+                
                 while (true)
                 {
                     
@@ -36,7 +37,7 @@ namespace BinarySearchTree
                     if (currentPosition.data.CompareTo(data) > 0)
                     {
                         currentPosition = currentPosition.left;
-                       
+                        
                         if (currentPosition == null)
                         {
                             parent.left = node;
@@ -55,12 +56,14 @@ namespace BinarySearchTree
                     }
                 }
             }
+            return root;
         }
         
         public void DisplayDatainBST()
         {
-          
+            
             Node<T> parent = root;
+          
             if (root.left != null)
             {
                 leftNodeCount++;
@@ -69,7 +72,7 @@ namespace BinarySearchTree
                 DisplayDatainBST();
             }
             Console.WriteLine("Data in sorted manner from :\t" + parent.data);
-           
+          
             if (root.right != null)
             {
                 rightNodeCount++;
@@ -77,12 +80,40 @@ namespace BinarySearchTree
                 DisplayDatainBST();
             }
         }
-     
+        
         public void CountOfNodes()
         {
             
             Console.WriteLine("Count for Left nodes are\t" + leftNodeCount);
             Console.WriteLine("Count for Right nodes are\t" + rightNodeCount);
+        }
+        
+        public void SearchInBST(Node<T> root, T searchValue)
+        {
+            
+            if (root == null)
+            {
+                Console.WriteLine("Value is not present in the binary search tree");
+                return;
+            }
+            
+            if (root.data.Equals(searchValue))
+            {
+                Console.WriteLine("searched value is there in the binary search tree");
+                return;
+            }
+            
+            if (root.data.CompareTo(searchValue) > 0)
+            {
+                root = root.left;
+                SearchInBST(root, searchValue);
+            }
+            
+            else
+            {
+                root = root.right;
+                SearchInBST(root, searchValue);
+            }
         }
 
     }
