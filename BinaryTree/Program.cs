@@ -9,12 +9,14 @@ namespace BinarySearchTree
             Console.WriteLine("Welcome to Binary Search Tree");
 
             BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>();
-            binarySearchTree.InsertDataInBST(70);
-            binarySearchTree.InsertDataInBST(30);
-            binarySearchTree.InsertDataInBST(56);
-          
+            binarySearchTree.InsertDataInBST(23);
+            binarySearchTree.InsertDataInBST(344);
+            binarySearchTree.InsertDataInBST(43);
+            binarySearchTree.InsertDataInBST(266);
+            binarySearchTree.InsertDataInBST(232);
 
             binarySearchTree.DisplayDatainBST();
+            binarySearchTree.CountOfNodes();
         }
     }
 }
