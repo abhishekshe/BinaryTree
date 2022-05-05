@@ -1,0 +1,15 @@
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\bin\Debug\net6.0\BinaryTree.exe
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\bin\Debug\net6.0\BinaryTree.deps.json
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\bin\Debug\net6.0\BinaryTree.runtimeconfig.json
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\bin\Debug\net6.0\BinaryTree.dll
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\bin\Debug\net6.0\BinaryTree.pdb
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\BinaryTree.csproj.AssemblyReference.cache
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\BinaryTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\BinaryTree.AssemblyInfoInputs.cache
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\BinaryTree.AssemblyInfo.cs
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\BinaryTree.csproj.CoreCompileInputs.cache
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\BinaryTree.dll
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\refint\BinaryTree.dll
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\BinaryTree.pdb
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\BinaryTree.genruntimeconfig.cache
+C:\Users\abhis\source\repos\BinaryTree\BinaryTree\obj\Debug\net6.0\ref\BinaryTree.dll
